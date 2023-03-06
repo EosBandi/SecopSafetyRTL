@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{764e5723-911f-47ce-9f76-db36f0ea2953}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)checksum.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)mavlink_conversions.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)mavlink_get_info.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)mavlink_helpers.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)mavlink_sha256.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)mavlink_types.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)protocol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+</Project>
